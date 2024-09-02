@@ -1,0 +1,115 @@
+.features {
+  background-color: var(--black-color);
+}
+
+.features_container {
+  padding: 80px 0px;
+}
+
+.features_header {
+  max-width: 600px;
+  margin: 0px auto;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.features_cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.features_card {
+  width: 370px;
+  height: 490px;
+  background-color: var(--white-color);
+  border-radius: 20px;
+  padding: 40px 47px;
+  position: relative;
+}
+
+.features_card_img {
+  height: 253px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.features_card_icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 259px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+}
+
+.features_card:nth-of-type(1) .features_card_icon {
+  background-color: #0278ed;
+}
+
+.features_card:nth-of-type(2) .features_card_icon {
+  background-color: #ff5437;
+}
+
+.features_card:nth-of-type(3) .features_card_icon {
+  background-color: #ff9209;
+}
+
+.features_card:nth-of-type(4) .features_card_icon {
+  background-color: #e738ce;
+}
+
+.features_card:nth-of-type(5) .features_card_icon {
+  background-color: #00c6df;
+}
+
+.features_card:nth-of-type(6) .features_card_icon {
+  background-color: #b25df8;
+}
+
+.features_card_body {
+  text-align: center;
+  padding-top: 48px;
+}
+
+.features_card_body h3 {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: var(--font);
+}
+
+.features_card:nth-of-type(1) .features_card_body h3 {
+  color: #0278ed;
+}
+
+.features_card:nth-of-type(2) .features_card_body h3 {
+  color: #ff5437;
+}
+
+.features_card:nth-of-type(3) .features_card_body h3 {
+  color: #ff9209;
+}
+
+.features_card:nth-of-type(4) .features_card_body h3 {
+  color: #e738ce;
+}
+
+.features_card:nth-of-type(5) .features_card_body h3 {
+  color: #00c6df;
+}
+
+.features_card:nth-of-type(6) .features_card_body h3 {
+  color: #b25df8;
+}
+
+.features_card_body p {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22.4px;
+  font-family: var(--font);
+}

@@ -1,0 +1,33 @@
+.footer {
+  padding: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_icons {
+  display: flex;
+  margin: 26px 0px;
+  gap: 20px;
+}
+
+.footer_icon a {
+  color: #1b1a1a;
+}
+
+.footer_icon a .icon {
+  font-size: 24px;
+}
+
+.footer p {
+  color: #b1b1b1;
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.footer p span {
+  color: #666666;
+}

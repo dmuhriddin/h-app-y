@@ -1,0 +1,28 @@
+.statistics {
+  padding: 100px 0px;
+  background-color: #ff5437;
+}
+
+.statistics_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 120px;
+}
+
+.statistics_item h2 {
+  font-size: 98px;
+  font-family: var(--font);
+  color: var(--white-color);
+  font-weight: 400;
+}
+
+.statistics_item p {
+  font-size: 14px;
+  font-family: var(--font);
+  color: var(--white-color);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
